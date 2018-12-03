@@ -103,7 +103,7 @@ render() {
 
         <Article>
           <img
-            src="images/satellite-sm.jpg"
+            src="../static/img/home.jpg"
             srcSet="images/satellite-sm.jpg 400w, images/satellite-md.jpg 800w, images/satellite-lg.jpg 1200w, images/satellite-xl.jpg 2200w"
             sizes="100vw"
             alt="SpaceX satellite"

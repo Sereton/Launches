@@ -1,6 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import styled from 'styled-components';
+import home from "../static/img/home.jpg"
 
 const Article = styled.article`
 
@@ -102,14 +103,15 @@ render() {
         </Helmet>
 
         <Article>
-          <img
-            src="../static/img/home.jpg"
-            srcSet="images/satellite-sm.jpg 400w, images/satellite-md.jpg 800w, images/satellite-lg.jpg 1200w, images/satellite-xl.jpg 2200w"
-            sizes="100vw"
-            alt="SpaceX satellite"
-          />
+          
           <header className="article-header">
             <h1>About SpaceX</h1>
+            <img
+            src={home}
+           
+        
+            alt="SpaceX satellite"
+          />
           </header>
           <div className="article-wrapper">
             <p>{this.state.data.summary}</p>

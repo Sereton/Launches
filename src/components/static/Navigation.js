@@ -43,7 +43,7 @@ const Nav = styled.nav`
     &.active,
     &:hover,
     &:active:hover {
-      background: blue;
+      background: #87cefa;
       color: yellow;
     }
     &.active:hover {

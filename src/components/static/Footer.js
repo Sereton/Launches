@@ -10,7 +10,7 @@ color: #222;
 text-align: center;
 
 a {
-    color: #fff;
+    color: #0;
   }
 small {
     display: block;
@@ -25,9 +25,7 @@ small {
  const Footer = () => (
     <Colophon>
       <small>
-        This project is not affiliated with the SpaceX company or any of its
-        affiliates in any way. I'm just a web developer tinkering with React who
-        loves space exploration and working with APIs. All images released under{' '}
+        SpaceX logo, images and information is property of the company, this is just a tribute site. All images released under{' '}
         <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en">
           Creative Commons CC0
         </a>
